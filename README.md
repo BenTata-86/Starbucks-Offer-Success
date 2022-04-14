@@ -7,64 +7,39 @@
 1. [Installation](#installation)
 2. [Project Motivation](#motivation)
 3. [File Descriptions](#files)
-4. [How to run](#run)
-5. [Part](#model)
-6. [Licensing, Authors, and Acknowledgements](#licensing)
+4. [Results](#results)
+5. [Licensing, Authors, and Acknowledgements](#licensing)
 
 ### Installation <a name="installation"></a>
-- Python 3.8+
-- ML Libraries: NumPy, Pandas, Sciki-Learn
-- NLP Libraries: NLTK
-- SQLlite Database Libraqries: SQLalchemy
-- Model Loading and Saving Library: Pickle
-- Web App and Data Visualization: Flask, Plotly
-- Additional: Bootstrap for styling, HTML for templates
+- Python 3.7+
+- Python Libraries: NumPy, Pandas, Sciki-Learn, Matplotlib, json
 
 
 ### Project Motivation<a name="motivation"></a>
-This projects aims to demonstrate (except monitoring) all steps in a Data Science project.
-The data is collected and labeled by Figure Eight(now Appen). The data consist of messages collected via 3 genres;
-    - Direct
-    - Social Media
-    - News
-    
-The messages labelled into 36 categories by Appen.
-Our model aims to take the messages as input and try to predict these labels in order to send or warn authorities.
+This projects aims to analyze and create a binary classification algorithm for the starbucks customer dataset.
+The data set includes customer profile and transactions, and additionaly offers send to customers.
+The classification is about the success of these offers, whether the offer completed with transaction or not.
 
-1. ETL
-    - Extract data : Input data from Appen
-    - Transform data : clean  and transfor data
-    - Load data : Load data to a SQL database
-2. ML Pipeline
-    - Initializing the data
-    - Vectorization and transfromation of the texts
-    - Build model
-    - Train model
-    - Display the results and metrics
-    - Save model
-3. Deployment 
-    - Create a web-app with Flask and Plotly, and using Bootstrap templates.
-
-It is also demonstrating NLP modeling with NLTK and scikit-learn.
 
 
 ### File Descriptions <a name="files"></a>
 
-There are 3 folders each one is related with the above steps;
+There are 3 files and 1 folder in this repository;
 
-    - app:
-        this folder contains run.py file which is running the web-app
-        -templates: there are two templates
-    - data:
-        this folder contains the ETL pipeline files.
-        - Input files: disaster_messages.csv and disaster_categories.csv
-        - Clean and transform: process_data.py
-        -Load data : Load data into a database DisasterResponse.db
-     - model:
-        this folder contains modelling part of the files
-        - train_classifier.py : the script that runs and trains the model
-        - classifier.pkl : Pickle file where the model is saved
+    - Data_Exploration.ipynb:
+        Jupyter notebook for the exploration of data
+    - Data Processing&Modelling.ipynb:
+        Jupyter notebook for the preprocessing and data modelling
+     - Data:
+        data folder with 3 json files;
+            * Portfolio
+            * Profile
+            * Transcript
         
 
-### How to run <a name="run"></a>
+### Results <a name="results"></a>
+The main findings of the code can be found at the post available [here]
+
+### Licensing, Authors, and Acknowledgements <a name="licensing"></a>
+Must give credit to Udacity and Starbucks for the data.
 
