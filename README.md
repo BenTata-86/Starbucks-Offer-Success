@@ -16,8 +16,8 @@
 
 
 ### Project Motivation<a name="motivation"></a>
-This projects aims to analyze and create a binary classification algorithm for the starbucks customer dataset.
-The data set includes customer profile and transactions, and additionaly offers send to customers.
+This projects aims to analyze and create a binary classification algorithm for, the starbucks customer dataset.
+The data set includes customer profile and transactions, and additionaly offer portfolio send to customers.
 The classification is about the success of these offers, whether the offer completed with transaction or not.
 
 
