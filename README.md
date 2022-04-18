@@ -28,7 +28,7 @@ There are 3 files and 1 folder in this repository;
 
     - Data_Exploration.ipynb:
         Jupyter notebook for the exploration of data
-    - Data Processing&Modelling.ipynb:
+    - Modelling.ipynb:
         Jupyter notebook for the preprocessing and data modelling
      - Data:
         data folder with 3 json files;
@@ -38,7 +38,7 @@ There are 3 files and 1 folder in this repository;
         
 
 ### Results <a name="results"></a>
-The main findings of the code can be found at the post available [here]
+The main findings of the code can be found at the post available [here].[https://medium.com/@dahoye46/customers-feedback-to-starbucks-offers-c212254ea8d6]
 
 ### Licensing, Authors, and Acknowledgements <a name="licensing"></a>
 Must give credit to Udacity and Starbucks for the data.
